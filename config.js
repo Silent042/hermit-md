@@ -34,11 +34,11 @@ module.exports = {
 
 	VERSION: 'v4.4.1', 
 
-    SESSION_ID: process.env.SESSION_ID || '07_10_H_E_R_M_I_T_W51T2JZ',
+    SESSION_ID: process.env.SESSION_ID || '07_18_H_E_R_M_I_T_RE8ZUXI',
 
     MODE: (process.env.MODE || 'public').toLowerCase(),
 
-    HANDLERS: (process.env.PREFIX || ',').trim(),
+    HANDLERS: (process.env.PREFIX || '.').trim(),
 
     SEND_READ: (process.env.READ_COMMAND || false),
 
@@ -52,7 +52,7 @@ module.exports = {
 
     ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
 
-    BOT_NAME: process.env.BOT_NAME || 'SILENT',
+    BOT_NAME: process.env.BOT_NAME || 'DARK💀',
 
     AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
 
@@ -60,7 +60,7 @@ module.exports = {
 
     ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
 
-    BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/6oRG106.jpeg',
+    BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;2348168855791;https://i.imgur.com/6oRG106.jpeg',
 
     AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
 
